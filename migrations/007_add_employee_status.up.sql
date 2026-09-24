@@ -1,0 +1,3 @@
+ALTER TABLE employee
+ADD COLUMN status VARCHAR(20) NOT NULL DEFAULT 'active'
+AFTER phone;
